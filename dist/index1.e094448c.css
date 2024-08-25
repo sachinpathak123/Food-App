@@ -8097,7 +8097,7 @@
 }
 
 .restocard {
-  object-fit: contain;
+  object-fit: cover;
   border: .5px solid #000;
   border-radius: 5%;
   width: 18%;

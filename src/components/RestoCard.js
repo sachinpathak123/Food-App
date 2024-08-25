@@ -16,7 +16,8 @@ const RestoCard= ({resName}) => {
           <h4> {resName.info.sla.deliveryTime} minutes</h4>
           </div>
           <div className="cuisines">
-          <button className="menubtn">View Menu</button>
+          <button className="menubtn" style={{marginRight:"0.6rem"}}>Menu</button>
+          <button className="menubtn">Buy Now</button>
           </div>
       </div>
     );

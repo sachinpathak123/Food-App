@@ -45,7 +45,6 @@
 
 .restocard{
     width: 18%;
-    /* height: 25rem; */
     margin: 3rem;
     border: 0.5px solid black;
     box-shadow: 3px 4px 5px grey;
@@ -53,14 +52,13 @@
     transition: all 0.3s ease;
     overflow: hidden; 
     border-radius: 5%;
-    object-fit: contain;
+    object-fit: cover;
 }
 .restocard:hover{
     box-shadow: 4px 3px 10px #0a0c2a;
 }
 .biryanimg{
     width: 100%;
-    /* height: 50%; */
     border-radius: 5%;
 }
 .res-container{

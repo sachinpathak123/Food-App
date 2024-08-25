@@ -34948,15 +34948,28 @@ const RestoCard = ({ resName })=>{
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "cuisines",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    className: "menubtn",
-                    children: "View Menu"
-                }, void 0, false, {
-                    fileName: "src/components/RestoCard.js",
-                    lineNumber: 19,
-                    columnNumber: 11
-                }, undefined)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "menubtn",
+                        style: {
+                            marginRight: "0.6rem"
+                        },
+                        children: "Menu"
+                    }, void 0, false, {
+                        fileName: "src/components/RestoCard.js",
+                        lineNumber: 19,
+                        columnNumber: 11
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "menubtn",
+                        children: "Buy Now"
+                    }, void 0, false, {
+                        fileName: "src/components/RestoCard.js",
+                        lineNumber: 20,
+                        columnNumber: 11
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/RestoCard.js",
                 lineNumber: 18,
                 columnNumber: 11
